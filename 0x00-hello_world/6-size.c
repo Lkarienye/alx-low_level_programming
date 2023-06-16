@@ -1,4 +1,4 @@
-[200~#include <stdio.h>
+#include <stdio.h>
 /**
  *  * main -  prints the size of various types
  *   * Return: 0(success)
@@ -9,7 +9,7 @@ char a;
 int b;
 long int c;
 long long int d;
-float;
+float f;
 	printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
 	 printf("size of a int: %lu byte(s)\n", (unsigned long)sizeof(b));
 	  printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
